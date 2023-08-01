@@ -24,7 +24,7 @@ let sec = seconds < 10 ? "0" + seconds: seconds;
     displayTime.innerHTML = hrs + ":" + min + ":" + sec;
 }
 
-//function for starting the timer
+//function to start the timer
 function watchStart(){
     if(timer !== null)
     {
@@ -33,12 +33,12 @@ function watchStart(){
     timer = setInterval(stopwatch,1000);
 }
 
-//function for stopping the timer
+//function to stop the timer
 function watchStop(){
     clearInterval(timer);
 }
 
-//function for resetting the timer
+//function to reset the timer
 function watchReset(){
     clearInterval(timer);
     [seconds, minutes, hours] = [0,0,0];
