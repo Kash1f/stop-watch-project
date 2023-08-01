@@ -6,7 +6,7 @@ body{
 .stopwatch{
     width: 90%;
     max-width: 600px;
-    background-image: url("../Assets/images/background.jpg");
+    background-image: url("./Assets/images/background.jpg");
     background-size: cover;
     background-position: center;
     text-align: center;
